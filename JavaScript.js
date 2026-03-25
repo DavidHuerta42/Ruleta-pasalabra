@@ -34,7 +34,7 @@ let respuestasCorrectas = [
   "cafe",        // para C
   "domingo",      // para D
   "elefante",    // para E
-  "fango",     // para F (sin tilde para evitar líos)
+  "fango",     // para F 
   "gato",        // para G
   "horda",       // para H
   "italia",      // para I
