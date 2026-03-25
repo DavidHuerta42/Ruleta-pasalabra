@@ -1,0 +1,66 @@
+body { 
+  position: relative;
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-image:url("img/image.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rosco {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 100px;
+  transform: translateY(-80px);
+}
+
+.letra {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background: lightblue;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform-origin: 0 0; 
+} 
+.activa {
+  background: orange;
+} 
+.controles {
+  position: absolute;
+  bottom: 100px; /*  ajusta altura */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} 
+
+#pregunta {
+  position: absolute;
+  top: 50px; 
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+} 
+#mensaje {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  height: 30px; /* deja espacio para el mensaje */
+  transition: opacity 0.5s;
+}

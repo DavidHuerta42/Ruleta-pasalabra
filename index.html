@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pasapalabra</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("img/RULETA.png"); 
+      background-size: 1550px;
+      background-position: center;
+    }
+
+    .boton {
+      position: absolute;
+      bottom: 70px;
+      padding: 15px 40px;
+      font-size: 24px;
+      background: orange;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .boton:hover {
+      background: darkorange;
+    }
+  </style>
+</head>
+
+<body>
+
+<button class="boton" onclick="jugar()">JUGAR</button>
+
+<script>
+function jugar() {
+  window.location.href = "juego.html";
+}
+</script>
+
+</body>
+</html>
